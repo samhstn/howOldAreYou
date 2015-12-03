@@ -2,6 +2,8 @@
 ###An age calculator
 This is an age calculator that I set up 3 days after finishing the JavaScript course in codecademy.
 
+The calculator currently takes an input of dd/mm/yyyy and outputs how old you are in Days, Months and Years.
+
 I feel that this is a good first project to work on to become more familiar with using Github.
 
 It is currently full of errors, but I will be correcting those quite soon. There will always be room for improvement.
