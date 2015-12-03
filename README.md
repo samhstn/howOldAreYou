@@ -10,7 +10,8 @@ Areas that can be improved:
 - Add a getDate function in the js file (as suggested by JackTierney)
 - Improve the CSS
 - Remove the current bugs in the js file (entering incorrect dates)
-- Perhapse output more information about how old you are eg. in months
+- Perhapse output more information about how old you are eg. how old you are in months
 - Add some jquery to make the transitions better
+- Improve the js to that it can manage inputs in different forms eg. an input of 20th November 1993 as opposed to 20/11/1993
 
 If anyone would like to work on one of these areas or have any other suggestions for what can be added, let me know
