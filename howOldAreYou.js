@@ -14,6 +14,10 @@ born.day = Day;
 born.month = Month;
 born.year = Year;
 
+if(Day>31 || Month>12){
+	document.getElementById("demo").innerHTML = "That is not a correct date!";
+}
+else{
 if(today.day >= born.day && today.month >= born.month){
 	var days = today.day - born.day;
 	var months = today.month - born.month;
@@ -35,4 +39,5 @@ else if(today.day < born.day && today.month > born.month){
 	var years = today.year - born.year;
 }
 document.getElementById("demo").innerHTML = "You are: " + days + " days, " + months + " months, and " + years + " years old";
+}
 }
