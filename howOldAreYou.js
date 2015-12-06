@@ -5,9 +5,9 @@ var Month = parseInt(age.substring(3,5));
 var Year = parseInt(age.substring(6,10));
 
 var today = new Object();
-today.day = 2;
-today.month = 12;
-today.year = 2015;
+today.day = getDay();
+today.month = getMonth();
+today.year = getYear();
 
 var born = new Object();
 born.day = Day;
