@@ -19,7 +19,7 @@
     </section>
 
     <section class="main-content">
-	
+
 	<div id="header">
 			<h2>Your Age calculator</h2>
 		</div>
@@ -27,8 +27,12 @@
 		</script>
 		<div>
 		<p id="demo">Type your age into the text box in the form: dd/mm/yyyy <br> Then click calculate</p>
-		<input type="text" id="txtinput">
-		<button type="button" onClick="readBox()">CALCULATE</button>
+		<form>
+			<input type="text" placeholder='dd' id="day">
+			<input type="text" placeholder='mm' id='month'>
+			<input type='text' placeholder='yyyy' id='year'><br>
+			<button type="button" id='calculate' onClick="readBox()">CALCULATE</button>
+		</form>
 		</div>
 		<div id="footer">
 			<div id="buttons">
@@ -41,6 +45,6 @@
 
     </section>
 
-  
+
   </body>
 </html>
