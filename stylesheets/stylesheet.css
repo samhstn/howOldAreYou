@@ -54,6 +54,11 @@ input[type=text] {
 	border: none;
 }
 
+#calculate:focus,
+input[type=text] {
+	outline: 0;
+}
+
 
 @media screen and (min-width: 64em) {
   .btn {
