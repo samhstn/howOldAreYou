@@ -5,6 +5,7 @@ function readBox() {
 	var monthVal = document.getElementById('month').value;
 	var yearVal = document.getElementById('year').value;
 
+	// also don't use capitals for first letter of variables unless you're making an object constructor (it's a naming convention so we don't confuse variables and functions to make new objects)
 	var day = parseInt(dayVal);
 	var month = parseInt(monthVal);
 	var year = parseInt(yearVal);
