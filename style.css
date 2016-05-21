@@ -13,10 +13,17 @@ h1 {
 }
 
 #age input, span, button {
+  display: block;
   padding: 5%;
   margin: 5%;
 }
 
 #result {
   margin-left: 40%;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: lightgreen;
+  }
 }
