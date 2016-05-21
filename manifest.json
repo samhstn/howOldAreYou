@@ -1,0 +1,13 @@
+{
+  "short_name": "Sam's Amaze App",
+  "name": "Sam's Amazing Application ++",
+  "icons": [
+    {
+      "src": "launcher-icon-3x.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone"
+}
