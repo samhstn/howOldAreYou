@@ -1,0 +1,22 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#age {
+  width: 20%;
+  margin-left: 40%;
+}
+
+#age input, span, button {
+  padding: 5%;
+  margin: 5%;
+}
+
+#result {
+  margin-left: 40%;
+}
